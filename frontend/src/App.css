@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+.cozy-studio {
+  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+video {
+  width: 100%;
+  max-height: 400px;
+  background-color: #000;
+}
+
+.video-player {
+  position: relative;
+}
