@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
    import axios from 'axios';
    import io from 'socket.io-client';
 
-   const socket = io(); // Relative connection for Heroku
+    const socket = io('http://localhost:5000');// Relative connection for Heroku
 
    function App() {
      const [username, setUsername] = useState('');
